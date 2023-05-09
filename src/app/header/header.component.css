@@ -31,43 +31,43 @@
   font-weight: 400;
   font-size: 22px;
   text-decoration: none;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .main-header__menu a:hover {
-    background-color: var(--blue);
-    color: #fff;
+  background-color: var(--blue);
+  color: #fff;
 }
 
 .container-menu {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  flex: 1;
 }
 
 .badge-carrinho {
-    background-color: var(--dark-blue);
-    padding: 5px 10px;
-    border-radius: 4px;
-    color: white;
+  background-color: var(--dark-blue);
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
 }
 
 .search-form {
-    height: 44px;
-    display: flex;
+  height: 44px;
+  display: flex;
 }
 
 .search-form input {
-    box-sizing: border-box;
-    height: 56px;
-    padding: 20px;
-    flex: 1;
-    background-color: var(--light-gray);
-    color: var(--gray);
-    border: none;
-    transition: all .3s ease-in-out;
-    font-size: 22px
+  box-sizing: border-box;
+  height: 56px;
+  padding: 20px;
+  flex: 1;
+  background-color: var(--light-gray);
+  color: var(--gray);
+  border: none;
+  transition: all 0.3s ease-in-out;
+  font-size: 22px;
 }
 
 .search-form input:focus {

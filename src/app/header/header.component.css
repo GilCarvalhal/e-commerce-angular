@@ -8,16 +8,20 @@
 }
 
 .main-header__title {
-  font-size: 92px;
+  font-size: 80px;
   letter-spacing: -1.5px;
 }
 
 .main-header__title--blue {
   color: var(--blue);
+  color: blue;
+  font-size: 60px;
 }
 
 .main-header__title--orange {
   color: var(--orange);
+  color: orange;
+  font-size: 60px;
 }
 
 .main-header__menu ul {
@@ -61,19 +65,13 @@
 .search-form input {
   box-sizing: border-box;
   height: 56px;
-  padding: 20px;
+  padding: 28px;
   flex: 1;
   background-color: var(--light-gray);
   color: var(--gray);
   border: none;
-  transition: all 0.3s ease-in-out;
+  transition: all -3s ease-in-out;
   font-size: 22px;
-}
-
-.search-form input:focus {
-  background-color: var(--blue);
-  outline: none;
-  color: #fff;
 }
 
 .search-form button {

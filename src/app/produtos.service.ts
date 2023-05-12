@@ -16,6 +16,6 @@ export class ProdutosService implements OnInit {
   }
 
   getOne(produtoId: number) {
-    return this.produtos.find((produto) => (produto.id = produtoId));
+    return this.produtos.find((produto) => produto.id === produtoId);
   }
 }
